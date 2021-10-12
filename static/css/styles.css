@@ -10,6 +10,11 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .dataframe td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -727,7 +732,7 @@ progress {
 
 .col-auto {
   flex: 0 0 auto;
-  width: auto;
+  /* width: auto; */
 }
 
 .col-1 {
@@ -11590,12 +11595,20 @@ body {
     font-size: 1.25rem;
   }
 }
-
-.about-section {
+.result-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
-.about-section p {
+.result-section p {
+  margin-bottom: 5rem;
+}
+
+
+.search-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.search-section p {
   margin-bottom: 5rem;
 }
 
